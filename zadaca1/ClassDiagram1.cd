@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="zadaca1.RasporedBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAQSAgAgAAAgAAGEAAAAABEAAAAAAAAgAAIMAIAgAE=</HashCode>
+      <FileName>Builders\RasporedBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="zadaca1.RasporedDirector" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAgAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builders\RasporedDirector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Component" Collapsed="true">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACAAAAAAAAAAEAAAAAAAAQEAAACAQAAEAAAAAI=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Emisija" Collapsed="true">
+    <Position X="14.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAgACAAAAAAAEAAEAAgAAAAQQEACACAQAAEAAAAgI=</HashCode>
+      <FileName>Composite\Emisija.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="zadaca1.Programi" Collapsed="true">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACAEAAAAAEACEAAAAQAAAQEEIACAYCAEAAAAgI=</HashCode>
+      <FileName>Composite\Programi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="zadaca1.Raspored" Collapsed="true">
+    <Position X="12.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgACCAAAAAAGEAEAAAAAAAAQEAAACAYAAGAAAgAI=</HashCode>
+      <FileName>Composite\Raspored.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="zadaca1.Decorator" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.DecoratorClass" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Decorator\DecoratorClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.EmisijaIspis" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAAAAAAAEAAAAAgAAAAQAAACACAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\EmisijaIspis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.RasporedIspis" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAACAAAAAAEEAAAAAAAAAAAAAAACAIAAAAAAAAA=</HashCode>
+      <FileName>Decorator\RasporedIspis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.ReklameIspis" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\ReklameIspis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.TablicaRed" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\TablicaRed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.TablicaReklame" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\TablicaReklame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Objekt" Collapsed="true">
+    <Position X="25.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Factory\Objekt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.ObjektCreator" Collapsed="true">
+    <Position X="25.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAEAAAEAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Factory\ObjektCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.VrstaCreator" Collapsed="true">
+    <Position X="27.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\VrstaCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.EmisijeIterator" Collapsed="true">
+    <Position X="9.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAAAAAAAgAAgAAAAQAAAAAAACAA=</HashCode>
+      <FileName>Iterator\EmisijeIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.ObjektIterator" Collapsed="true">
+    <Position X="8.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\ObjektIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.VrsteIterator" Collapsed="true">
+    <Position X="7" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAAAAAAAgAAgAAAAQAAAAAAACgA=</HashCode>
+      <FileName>Iterator\VrsteIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Osoba" Collapsed="true">
+    <Position X="19" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAAAAAAAAAIAAAABAAAAAAAQAAAA=</HashCode>
+      <FileName>Observer\Osoba.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="zadaca1.CitacDatoteka" Collapsed="true">
+    <Position X="1" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQAAAAAAAIAAAAAAAABAAAAAIAEAACSIAAgAAAAAg=</HashCode>
+      <FileName>Singleton\CitacDatoteka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Tv_kuca" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAgACAAAAAgAAEAEQAAAAAAAQFEAACQQAIEAAAAgI=</HashCode>
+      <FileName>Singleton\Tv_kuca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.FunkcijeIzbornika" Collapsed="true">
+    <Position X="25.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQUAAABAAAAAAEACAAAEAAAAAAAEAQEAAAAAAADAAA=</HashCode>
+      <FileName>FunkcijeIzbornika.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Program" Collapsed="true">
+    <Position X="27.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Uloga" Collapsed="true">
+    <Position X="23" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Uloga.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Vrsta" Collapsed="true">
+    <Position X="27.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Vrsta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.factory.OsobaCreator" Collapsed="true">
+    <Position X="23" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\OsobaCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.factory.UlogaCreator" Collapsed="true">
+    <Position X="25.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\UlogaCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.RasporedHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQA=</HashCode>
+      <FileName>ChainOfResponsibility\RasporedHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="zadaca1.EmisijeHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQA=</HashCode>
+      <FileName>ChainOfResponsibility\EmisijeHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="zadaca1.ProgramHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQA=</HashCode>
+      <FileName>ChainOfResponsibility\ProgramHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="zadaca1.PohranaIspis" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Decorator\PohranaIspis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Serializator" Collapsed="true">
+    <Position X="22.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Memento\Serializator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Caretaker" Collapsed="true">
+    <Position X="24.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAEAAAEAAAAAAAAAAAAEAAAAAAAAAgAAAgA=</HashCode>
+      <FileName>Memento\Caretaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Memento" Collapsed="true">
+    <Position X="26" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Memento\Memento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Controller" Collapsed="true">
+    <Position X="2.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAAAAAAAAAAAAAAAAAEEAAAQQAAAAAIAAA=</HashCode>
+      <FileName>MVC\Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.Model" Collapsed="true">
+    <Position X="2.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zadaca1.ViewBrojevi" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\ViewBrojevi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="zadaca1.ViewObican" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\ViewObican.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="zadaca1.EmisijaVisitor" Collapsed="true">
+    <Position X="22.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAACQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor\EmisijaVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="zadaca1.IRasporedBuilder" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Builders\IRasporedBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="zadaca1.IObjektCollection" Collapsed="true">
+    <Position X="8.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Iterator\IObjektCollection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="zadaca1.ObserverClass" Collapsed="true">
+    <Position X="16.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\ObserverClass.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="zadaca1.ObserverInterface" Collapsed="true">
+    <Position X="16.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\ObserverInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="zadaca1.Handler" Collapsed="true">
+    <Position X="15.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQA=</HashCode>
+      <FileName>ChainOfResponsibility\Handler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="zadaca1.ViewSucelje" Collapsed="true">
+    <Position X="2" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\ViewSucelje.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="zadaca1.Visitor" Collapsed="true">
+    <Position X="22.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor\Visitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
